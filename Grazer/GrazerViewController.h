@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
-#import <MapKit/MapKit.h>
 
 @interface GrazerViewController : UIViewController
-<CLLocationManagerDelegate, MKMapViewDelegate>
+<CLLocationManagerDelegate>
 {
     CLLocationManager *locationManager;
+    
 }
+@property (nonatomic, strong) NSArray *offerings; // It is an array of arrays
 
 @end

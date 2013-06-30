@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D022DD71177BFB7900ABF5C2 /* CookProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D022DD70177BFB7900ABF5C2 /* CookProfileViewController.m */; };
+		D022DD74177CAD4300ABF5C2 /* OrderFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D022DD73177CAD4300ABF5C2 /* OrderFormViewController.m */; };
+		D022DD77177DB3FD00ABF5C2 /* CookOwnProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D022DD76177DB3FD00ABF5C2 /* CookOwnProfileViewController.m */; };
 		D048CF8F1774E6E900F4F352 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D048CF8E1774E6E900F4F352 /* UIKit.framework */; };
 		D048CF911774E6E900F4F352 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D048CF901774E6E900F4F352 /* Foundation.framework */; };
 		D048CF931774E6E900F4F352 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D048CF921774E6E900F4F352 /* CoreGraphics.framework */; };
@@ -20,9 +23,19 @@
 		D048CFAB1774E6E900F4F352 /* GrazerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D048CFAA1774E6E900F4F352 /* GrazerViewController.m */; };
 		D048CFB21774E70A00F4F352 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D048CFB11774E70A00F4F352 /* CoreLocation.framework */; };
 		D048CFB41774E71100F4F352 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D048CFB31774E71100F4F352 /* MapKit.framework */; };
+		D048CFB81776189500F4F352 /* cookForm.png in Resources */ = {isa = PBXBuildFile; fileRef = D048CFB61776189500F4F352 /* cookForm.png */; };
+		D048CFB91776189500F4F352 /* fullMap.png in Resources */ = {isa = PBXBuildFile; fileRef = D048CFB71776189500F4F352 /* fullMap.png */; };
+		D048CFBB1776189F00F4F352 /* grazerHomescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = D048CFBA1776189F00F4F352 /* grazerHomescreen.png */; };
+		D048D0131779D2BD00F4F352 /* myTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D048D0121779D2BD00F4F352 /* myTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D022DD6F177BFB7900ABF5C2 /* CookProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookProfileViewController.h; sourceTree = "<group>"; };
+		D022DD70177BFB7900ABF5C2 /* CookProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookProfileViewController.m; sourceTree = "<group>"; };
+		D022DD72177CAD4300ABF5C2 /* OrderFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderFormViewController.h; sourceTree = "<group>"; };
+		D022DD73177CAD4300ABF5C2 /* OrderFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderFormViewController.m; sourceTree = "<group>"; };
+		D022DD75177DB3FD00ABF5C2 /* CookOwnProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookOwnProfileViewController.h; sourceTree = "<group>"; };
+		D022DD76177DB3FD00ABF5C2 /* CookOwnProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookOwnProfileViewController.m; sourceTree = "<group>"; };
 		D048CF8B1774E6E900F4F352 /* Grazer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grazer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D048CF8E1774E6E900F4F352 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D048CF901774E6E900F4F352 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -41,6 +54,11 @@
 		D048CFAA1774E6E900F4F352 /* GrazerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrazerViewController.m; sourceTree = "<group>"; };
 		D048CFB11774E70A00F4F352 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D048CFB31774E71100F4F352 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D048CFB61776189500F4F352 /* cookForm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cookForm.png; path = ../../cookForm.png; sourceTree = "<group>"; };
+		D048CFB71776189500F4F352 /* fullMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fullMap.png; path = ../../fullMap.png; sourceTree = "<group>"; };
+		D048CFBA1776189F00F4F352 /* grazerHomescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grazerHomescreen.png; path = ../../grazerHomescreen.png; sourceTree = "<group>"; };
+		D048D0111779D2BD00F4F352 /* myTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTableViewCell.h; sourceTree = "<group>"; };
+		D048D0121779D2BD00F4F352 /* myTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +109,18 @@
 		D048CF941774E6E900F4F352 /* Grazer */ = {
 			isa = PBXGroup;
 			children = (
+				D048CFB51776187C00F4F352 /* Screenshots */,
 				D048CF9D1774E6E900F4F352 /* GrazerAppDelegate.h */,
 				D048CF9E1774E6E900F4F352 /* GrazerAppDelegate.m */,
 				D048CFA61774E6E900F4F352 /* MainStoryboard.storyboard */,
+				D022DD75177DB3FD00ABF5C2 /* CookOwnProfileViewController.h */,
+				D022DD76177DB3FD00ABF5C2 /* CookOwnProfileViewController.m */,
+				D022DD72177CAD4300ABF5C2 /* OrderFormViewController.h */,
+				D022DD73177CAD4300ABF5C2 /* OrderFormViewController.m */,
+				D022DD6F177BFB7900ABF5C2 /* CookProfileViewController.h */,
+				D022DD70177BFB7900ABF5C2 /* CookProfileViewController.m */,
+				D048D0111779D2BD00F4F352 /* myTableViewCell.h */,
+				D048D0121779D2BD00F4F352 /* myTableViewCell.m */,
 				D048CFA91774E6E900F4F352 /* GrazerViewController.h */,
 				D048CFAA1774E6E900F4F352 /* GrazerViewController.m */,
 				D048CF951774E6E900F4F352 /* Supporting Files */,
@@ -113,6 +140,16 @@
 				D048CFA41774E6E900F4F352 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D048CFB51776187C00F4F352 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				D048CFBA1776189F00F4F352 /* grazerHomescreen.png */,
+				D048CFB61776189500F4F352 /* cookForm.png */,
+				D048CFB71776189500F4F352 /* fullMap.png */,
+			);
+			name = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +209,9 @@
 				D048CFA31774E6E900F4F352 /* Default@2x.png in Resources */,
 				D048CFA51774E6E900F4F352 /* Default-568h@2x.png in Resources */,
 				D048CFA81774E6E900F4F352 /* MainStoryboard.storyboard in Resources */,
+				D048CFB81776189500F4F352 /* cookForm.png in Resources */,
+				D048CFB91776189500F4F352 /* fullMap.png in Resources */,
+				D048CFBB1776189F00F4F352 /* grazerHomescreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +225,10 @@
 				D048CF9B1774E6E900F4F352 /* main.m in Sources */,
 				D048CF9F1774E6E900F4F352 /* GrazerAppDelegate.m in Sources */,
 				D048CFAB1774E6E900F4F352 /* GrazerViewController.m in Sources */,
+				D048D0131779D2BD00F4F352 /* myTableViewCell.m in Sources */,
+				D022DD71177BFB7900ABF5C2 /* CookProfileViewController.m in Sources */,
+				D022DD74177CAD4300ABF5C2 /* OrderFormViewController.m in Sources */,
+				D022DD77177DB3FD00ABF5C2 /* CookOwnProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +351,7 @@
 				D048CFB01774E6E900F4F352 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
